@@ -20,3 +20,5 @@
     J'y crois pas ca marche
 * ``mv token bouh``
 * ``./level08 bouh``
+* ``su flag08`` + ``quif5eloekouj29ke0vouxean`` as psw
+* ``getflag``
