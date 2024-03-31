@@ -26,3 +26,6 @@ false reboot of level03
 
 ### level08
 No, it's not token
+
+### level09
+Decrypt
