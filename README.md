@@ -1,5 +1,6 @@
 # snow-crash
 
+## Mandatory
 ### level00
 what are my files ?
 
@@ -29,3 +30,7 @@ No, it's not token
 
 ### level09
 Decrypt
+
+## Bonus
+### level10
+Hit, if it doesn't work, hit faster and harder
