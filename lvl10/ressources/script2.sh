@@ -1,1 +1,1 @@
-while true; do ln -sf token mylink; rm mylink; ln -sf mytoken mylink; rm mylink; done
+while true; do ln -sf token mylink; rm mylink; ln -sf token mylink; rm mylink; done
