@@ -3,6 +3,13 @@
 http://manpagesfr.free.fr/man/man2/access.2.html
 
 # cmd
+* ``ls``
+    * 2 objs : 1 binary level10 + 1 file token
+* ``./level10``
+    ```
+	./level10 file host
+	 sends file to host if you have access to it
+	 ```
 
  - run the program with a file
  	- `./level10 file 0.0.0.0`
